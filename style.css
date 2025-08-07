@@ -1,7 +1,64 @@
+html {
+    font-size: 1em;
+}
+
+
 .estilo_tituloP {
+    color: Blue;
+}
+
+.estilo_parrafosP ::placeholder {
     color: blue;
 }
 
-.estilo_parrafosP {
-    color: rgb(75, 58, 170);
+input::placeholder {
+    color: blue;
+
+}
+p {
+    font-size: 2em; 
+}
+
+c {
+    font-size: 1rem; /* 1rem = 10px */
+}
+
+.cajas_1 {
+    width: 300px;
+    height: 150px;
+    background-color: red;
+}
+
+.cajas_2 {
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+}
+.cajas_3 {
+    width: 300px;
+    height: 150px;
+    background-color: green;
+}
+.cajas_4 {
+    width: 300px;
+    height: 150px;
+    background-color: yellow;
+}
+
+.display_inline {
+    display: inline;
+}
+
+.display_inline_block {
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+}
+
+.flex_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
